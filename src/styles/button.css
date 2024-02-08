@@ -1,0 +1,46 @@
+.formbutton{
+    margin: 5px;
+    padding: 5px;
+   height: 100%;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.NavButton{
+    margin: 5px;
+    padding: 5px;
+    height: 100%;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.pageButton{
+    margin: 5px;
+    padding: 5px;
+    border:0;
+    background: none;
+    outline: none;
+    
+}
+.pageButton .buttonText{
+    display: none;
+}
+
+.formbutton:hover{
+    background-color:rgb(165, 241, 241);
+}
+.NavButton:hover{
+    background-color:rgb(165, 241, 241);
+}
+
+
+.iconButton i {
+    font-size: 18px;
+    padding: 0;
+    transition:transform 2s ease;
+}
+.iconButton:hover i {
+    font-size: 26px;
+    color: aqua;
+    
+}

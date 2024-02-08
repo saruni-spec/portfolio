@@ -1,0 +1,59 @@
+.formC{
+    
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px;
+margin: 10px;
+height: 100%;
+width: 40%;
+}
+.formC div{
+    
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    
+}
+
+.formC input{
+    margin: 8px;
+    padding: 0 15px;
+    
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+.formC input:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(134, 134, 136);
+}
+.background {
+    background-image: url('../assets/portfolio.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+
+
+
+width: 60%;
+  }
+
+.row{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+   height: 80vh;
+    
+    width : 50%;
+    position: absolute;
+top:10%;
+left: 40%;
+}
